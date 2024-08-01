@@ -12,7 +12,13 @@
         android:theme="@style/Theme.IBOS"
         tools:targetApi="31">
         <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
             android:name=".First"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
             android:exported="false" />
         <activity
             android:name=".UserLogin"
